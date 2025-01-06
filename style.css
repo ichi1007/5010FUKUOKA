@@ -6,3 +6,7 @@ Author URI: https://ichi10.com/
 Description: このカスタムテーマは、5010FUKUOKAのために作成されました。
 Version: 0.1
 */
+
+body.menu-open {
+    overflow: hidden;
+}
