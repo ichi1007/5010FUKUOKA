@@ -11,6 +11,7 @@
       <p>© 2025 5010FUKUOKA. All Rights Reserved.</p>
     </footer>
   </main>
+<?php wp_footer(); ?>
 </body>
 
 </html>
