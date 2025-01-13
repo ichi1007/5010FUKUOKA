@@ -7,6 +7,7 @@
   <title>5010FUKUOKA</title>
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/home.css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/menuPage.css">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/hamburger.css">
   <script src="<?php echo get_template_directory_uri(); ?>/js/hamburger.js"></script>
   <?php wp_head(); ?>
@@ -25,10 +26,38 @@
     </div>
     <nav id="hamburger-menu" class="hamburger-menu">
       <ul>
-        <li><a href="/">HOME</a></li>
-        <li><a href="/about">ABOUT</a></li>
-        <li><a href="/news">NEWS</a></li>
-        <li><a href="/contact">CONTACT</a></li>
+        <li><a href="/" class="font-aspal">home</a></li>
+        <li><a href="/menu" class="font-aspal">drinkmenu</a></li>
+        <li><a href="/activity" class="font-aspal">activity</a></li>
+        <li><h3>sns</h3></li>
+        <li class="menu-sns">
+          <div>
+            <img src="<?php echo get_template_directory_uri(); ?>/img/Instagram_icon.svg" alt="Instagram icon">
+            <a href="https://instagram.com/user" class="allura-regular">Owner Yasumoto</a>
+          </div>
+        </li>
+        <li class="menu-sns">
+          <div>
+            <img src="<?php echo get_template_directory_uri(); ?>/img/Instagram_icon.svg" alt="Instagram icon">
+            <a href="https://instagram.com/user" class="allura-regular">Manager Yui</a>
+          </div>
+        </li>
+        <li class="menu-sns">
+          <div>
+            <img src="<?php echo get_template_directory_uri(); ?>/img/Instagram_icon.svg" alt="Instagram icon">
+            <a href="https://instagram.com/user" class="allura-regular">Staff Misaki</a>
+          </div>
+        </li>
+        <li class="cash-list">
+          <h3 class="zen-antique-soft-regular">ご利用可能クレジットカード一覧</h3>
+          <div class="card-list">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/MasterCard.svg" alt="MasterCard">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/JcbCard.svg" alt="JcbCard">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/AmericanExpressCard.svg" alt="AmericanExpressCard">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/VisaCard.svg" alt="VisaCard">
+          </div>
+          <p class="zen-antique-soft-regular">※︎キャッシュレス決済は対応しておりません。</p>
+        </li>
       </ul>
     </nav>
   </header>

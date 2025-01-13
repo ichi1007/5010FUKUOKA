@@ -16,6 +16,11 @@ body {
   color: #fff;
 }
 
+body.menu-open {
+  overflow: hidden;
+  width: 100%;
+}
+
 main {
   max-width: 480px;
   overflow-y: hidden;
@@ -45,6 +50,26 @@ main {
   &::after {
     content: "-";
     margin: 0 10px;
+  }
+}
+
+.page-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-left: 35px;
+
+  & li {
+    font-family: "Zen Antique Soft", serif;
+
+    & a {
+      color: #fff;
+    }
+
+    &:nth-child(1)::after {
+      content: ">";
+      margin: 0 3px;
+    }
   }
 }
 
@@ -259,6 +284,8 @@ header {
   position: relative;
   width: 100%;
   height: 100vh;
+  display: grid;
+  align-items: center;
 
   &::before {
     content: "";
@@ -277,6 +304,7 @@ header {
   & .volunteer-text {
     position: relative;
     z-index: 9999;
+    text-shadow: 0px 3px 3.3px #000;
 
     & h1 {
       font-family: "Zen Antique Soft";
@@ -284,7 +312,7 @@ header {
       font-size: 1.7rem;
       text-align: center;
       text-decoration: underline;
-      padding: 100px 0;
+      padding: 10px 0;
       background-color: none;
     }
 
@@ -306,6 +334,8 @@ footer {
     & ul {
       list-style: none;
       display: flex;
+      align-items: center;
+      flex-wrap: wrap;
       justify-content: center;
 
       & li {
