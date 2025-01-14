@@ -8,7 +8,7 @@
         </ul>
         <p>※︎キャッシュレス決済は対応しておりません。</p>
       </div>
-      <p>© 2025 5010FUKUOKA. All Rights Reserved.</p>
+      <p>© <?php echo date('Y'); ?> 5010FUKUOKA. All Rights Reserved.</p>
     </footer>
   </main>
 <?php wp_footer(); ?>

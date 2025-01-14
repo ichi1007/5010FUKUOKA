@@ -86,7 +86,7 @@ header {
     justify-content: space-between;
 
     & a {
-      margin: 15px;
+      margin: 5px;
 
       & img {
         width: 150px;

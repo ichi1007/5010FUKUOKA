@@ -55,7 +55,7 @@
       </div>
     </div>
     <div class="menu-viewMore">
-      <a href="/drink" class="font-aspal">View More</a>
+      <a href="/menu" class="font-aspal">View More</a>
     </div>
   </div>
 

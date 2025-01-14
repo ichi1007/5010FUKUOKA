@@ -1,0 +1,33 @@
+.activity-top {
+  text-align: center;
+  padding-top: 70px;
+
+  & .activity-top-img {
+    & img {
+      width: 90%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}
+
+.activity {
+  & .activity-title {
+    font-family: "Zen Antique Soft", serif;
+    font-weight: 300;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  & .activity-text {
+    font-family: "Zen Antique Soft", serif;
+    text-align: center;
+    margin: 0 30px;
+  }
+}
