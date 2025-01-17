@@ -28,7 +28,7 @@
     <h1 class="font-aspal sec-title">system</h1>
     <div><img src="<?php echo get_template_directory_uri(); ?>/img/SystemIMG.png" alt="systemIMG"></div>
     <div class="system-text">
-      <p class="allura-regular">charge<span>¥2,200</span></p>
+      <p class="allura-regular">charge<span>¥2,500</span></p>
       <p class="zen-antique-soft-regular">表示価格は全て税込価格です</p>
     </div>
   </div>
@@ -49,7 +49,7 @@
             <p>カクテル<br><span>ALL ¥800</span></p>
           </li>
           <li>
-            <p>◆ソフトドリンク<br><span>ALL ¥600</span></p>
+            <p>◆ソフトドリンク<br><span>ALL ¥900</span></p>
           </li>
         </ul>
       </div>
