@@ -31,6 +31,72 @@
     font-size: 2.7rem;
   }
 
+  & .ReasonableDrink {
+    margin: 50px 20px;
+    
+    & h1 {
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      font-weight: 400;
+      margin-left: 10px;
+    }
+    
+    & ul {
+      margin: 10px 20px 0 20px;
+      list-style: none;
+      
+      & li {
+        font-family: "Zen Antique Soft", serif;
+
+        & span {
+          display: flex;
+        }
+        
+        & p {
+          margin-left: 50px;
+        }
+      }
+    }
+    
+    & .ReasonableDrink-price {
+      text-align: right;
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      font-family: "Allura", serif;
+      font-size: 1.5rem;
+      margin: 30px 50px;
+    }
+    
+    & .ReasonableDrink-list {
+      margin-bottom: 30px;
+      display: flex;
+      
+      & p {
+        font-family: "Zen Antique Soft", serif;
+        margin: 10px 0 0 10px;
+      }
+
+      & ul {
+        margin: 0 20px 0 20px;
+        list-style: none;
+
+        & li {
+          font-family: "Zen Antique Soft", serif;
+          font-size: .9rem;
+        }
+      }
+
+      & .wiskey-price {
+        text-align: right;
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        font-family: "Allura", serif;
+        font-size: 1.5rem;
+        margin: 30px 50px;
+      }
+    }
+  }
+
   & .beer {
     margin: 50px 20px;
 
@@ -101,6 +167,35 @@
     }
   }
 
+  & .brandy {
+    margin: 50px 20px;
+
+    & h1 {
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      font-weight: 400;
+      margin-left: 10px;
+    }
+
+    & ul {
+      margin: 10px 20px 0 20px;
+      list-style: none;
+
+      & li {
+        font-family: "Zen Antique Soft", serif;
+        display: flex;
+        justify-content: space-between;
+
+        & span {
+          text-decoration: underline;
+          text-decoration-thickness: 1px;
+          font-family: "Allura", serif;
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+
   & .shot {
     margin: 50px 20px;
 
@@ -162,7 +257,7 @@
       font-family: "Zen Antique Soft", serif;
       text-align: center;
       font-size: .8rem;
-      margin: 20px 0 0 0;
+      margin: 5px 0 0 0;
     }
   }
 }
