@@ -5,12 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><?php if(is_front_page()){ echo 'Home'; } else { wp_title(''); } ?> | <?php bloginfo('name'); ?></title>
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css?v=<?php echo add_version_string(); ?>">
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/hamburger.css?v=<?php echo add_version_string(); ?>">
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/home.css?v=<?php echo add_version_string(); ?>">
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/menu.css?v=<?php echo add_version_string(); ?>">
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/activity.css?v=<?php echo add_version_string(); ?>">
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/error.css?v=<?php echo add_version_string(); ?>">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/hamburger.css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/home.css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/menu.css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/activity.css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/error.css">
   <script src="<?php echo get_template_directory_uri(); ?>/js/hamburger.js"></script>
   <?php wp_head(); ?>
 </head>
